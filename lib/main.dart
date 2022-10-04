@@ -1,8 +1,8 @@
 import 'package:d3f_login/app_global_binding.dart';
+import 'package:d3f_login/generated/locales.g.dart';
 import 'package:d3f_login/routes/links.dart';
 import 'package:d3f_login/routes/middle_ware.dart';
 import 'package:d3f_login/routes/routes.dart';
-import 'package:d3f_login/translations/translations.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
@@ -24,7 +24,7 @@ class MyApp extends StatelessWidget {
         highlightColor: Colors.transparent,
       ),
       debugShowCheckedModeBanner: false,
-      translationsKeys: LoginTranslation.translationsKeys,
+      translationsKeys: AppTranslation.translations,
       locale: const Locale('vi', 'VI'),
       fallbackLocale: const Locale('vi', 'VI'),
       initialBinding: AppGlobalBinding(),

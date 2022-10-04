@@ -8,7 +8,7 @@ class LoginMiddleWare extends GetMiddleware {
     switch (routing?.current) {
       case LoginAppLinks.tokenIsExpired: {
         Fimber.d('MiddleWare.observer() - AppLinks.tokenIsExpired');
-        // Get.offNamed(AppLinks.login);
+        Get.offNamed(LoginAppLinks.login);
         break;
       }
       case LoginAppLinks.splash: {
