@@ -4,6 +4,6 @@ import 'package:dio/dio.dart';
 class LoginGlobalBinding extends Bindings {
   @override
   void dependencies() {
-    Get.lazyPut(() => Dio());
+    Get.put(() => Dio(), permanent: true);
   }
 }
