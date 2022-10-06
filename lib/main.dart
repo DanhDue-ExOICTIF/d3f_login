@@ -27,7 +27,7 @@ class MyApp extends StatelessWidget {
       translationsKeys: AppTranslation.translations,
       locale: const Locale('vi', 'VI'),
       fallbackLocale: const Locale('vi', 'VI'),
-      initialBinding: AppGlobalBinding(),
+      initialBinding: LoginGlobalBinding(),
       initialRoute: LoginAppLinks.splash,
       routingCallback: (routing) => LoginMiddleWare.observer,
       getPages: LoginAppRoutes.pages,
