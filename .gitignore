@@ -50,3 +50,4 @@ app.*.map.json
 *.g.dart
 *.freezed.dart
 !/lib/generated/locales.g.dart
+!/lib/generated/assets.gen.dart
