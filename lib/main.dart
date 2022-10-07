@@ -1,8 +1,8 @@
-import 'package:d3f_login/app_global_binding.dart';
+import 'package:d3f_login/app/app_global_binding.dart';
+import 'package:d3f_login/app/translations.dart';
 import 'package:d3f_login/routes/links.dart';
 import 'package:d3f_login/routes/middle_ware.dart';
 import 'package:d3f_login/routes/routes.dart';
-import 'package:d3f_login/translations.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
@@ -29,7 +29,7 @@ class MyApp extends StatelessWidget {
       fallbackLocale: const Locale('vi', 'VI'),
       initialBinding: LoginGlobalBinding(),
       initialRoute: LoginAppLinks.splash,
-      routingCallback: (routing) => LoginMiddleWare.observer,
+      routingCallback: (routing) => LoginMiddleWare.observer(routing),
       getPages: LoginAppRoutes.pages,
     );
   }
