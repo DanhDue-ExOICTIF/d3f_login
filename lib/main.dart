@@ -1,3 +1,4 @@
+import 'package:d3f_dependency_manager/dependency_manager.dart';
 import 'package:d3f_login/app/app_global_binding.dart';
 import 'package:d3f_login/app/translations.dart';
 import 'package:d3f_login/routes/links.dart';
@@ -17,16 +18,13 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return GetMaterialApp(
       theme: ThemeData(
-        primarySwatch: Colors.blue,
-        backgroundColor: Colors.white,
-        scaffoldBackgroundColor: Colors.white,
-        splashColor: Colors.transparent,
-        highlightColor: Colors.transparent,
+        brightness: Brightness.light,
+        extensions: D3FThemeExtension.themes,
       ),
       debugShowCheckedModeBanner: false,
       translationsKeys: LoginGlobalTranslation.mergedTranslationKeys(),
-      locale: const Locale('vi', 'VI'),
-      fallbackLocale: const Locale('vi', 'VI'),
+      locale: AppConstants.vnVI,
+      fallbackLocale: AppConstants.vnVI,
       initialBinding: LoginGlobalBinding(),
       initialRoute: LoginAppLinks.splash,
       routingCallback: (routing) => LoginMiddleWare.observer(routing),
