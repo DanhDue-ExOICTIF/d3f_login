@@ -5,6 +5,7 @@ import 'package:d3f_login/routes/links.dart';
 import 'package:d3f_login/routes/middle_ware.dart';
 import 'package:d3f_login/routes/routes.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 import 'package:get/get.dart';
 
 void main() {
@@ -16,6 +17,9 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    SystemChrome.setSystemUIOverlayStyle(
+        const SystemUiOverlayStyle(statusBarColor: Colors.transparent));
+
     return GetMaterialApp(
       theme: ThemeData(
         brightness: Brightness.light,
