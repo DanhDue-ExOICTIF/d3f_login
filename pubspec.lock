@@ -316,7 +316,7 @@ packages:
     description:
       path: "."
       ref: develop
-      resolved-ref: "9abf49b20eb573976505c5e791d7908dc47ac347"
+      resolved-ref: "9d5c3d1b66d76029ccd1c9f28335f0f0b420fe04"
       url: "https://github.com/DanhDue-ExOICTIF/d3f_dependency_manager.git"
     source: git
     version: "1.0.0+1"
@@ -343,7 +343,7 @@ packages:
     description:
       path: "."
       ref: develop
-      resolved-ref: "4a47b0d44d7695a70b70adc9dfb0cdbad14a4552"
+      resolved-ref: "3db48c5cdac82d92545d94da1e51a7289793807a"
       url: "https://github.com/DanhDue-ExOICTIF/d3f_shared.git"
     source: git
     version: "1.0.0+1"

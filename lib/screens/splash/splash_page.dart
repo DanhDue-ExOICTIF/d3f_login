@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_hooks/flutter_hooks.dart';
 import 'package:get/get.dart';
 import 'package:lottie/lottie.dart';
+import 'package:d3f_shared/generated/assets.gen.dart';
 
 import 'splash_controller.dart';
 
@@ -18,8 +19,7 @@ class SplashPage extends HookWidget {
         return Scaffold(
           backgroundColor: Colors.white,
           body: Center(
-            child: Lottie.asset(
-                'packages/d3f_shared/${MyAssets.lotties.splashAnimation.path}',
+            child: Lottie.asset(SharedAssets.lotties.splashAnimation.path,
                 controller: _animationController, onLoaded: (composition) {
               _animationController
                 ..duration = composition.duration
