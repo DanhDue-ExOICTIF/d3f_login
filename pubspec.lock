@@ -303,49 +303,39 @@ packages:
     source: hosted
     version: "1.0.5"
   d3f_core:
-    dependency: transitive
+    dependency: "direct overridden"
     description:
-      path: "."
-      ref: develop
-      resolved-ref: "2f480047d7d03a62e19fb529c28c1a76dfa54ae4"
-      url: "https://github.com/DanhDue-ExOICTIF/d3f_core.git"
-    source: git
+      path: "../d3f_core"
+      relative: true
+    source: path
     version: "1.0.0+1"
   d3f_dependency_manager:
     dependency: "direct main"
     description:
-      path: "."
-      ref: develop
-      resolved-ref: "9d5c3d1b66d76029ccd1c9f28335f0f0b420fe04"
-      url: "https://github.com/DanhDue-ExOICTIF/d3f_dependency_manager.git"
-    source: git
+      path: "../d3f_dependency_manager"
+      relative: true
+    source: path
     version: "1.0.0+1"
   d3f_inapp_purchase:
-    dependency: transitive
+    dependency: "direct overridden"
     description:
-      path: "."
-      ref: develop
-      resolved-ref: deb37ed81a6f6c10a3dadca7c87cf8d9f5718fcf
-      url: "https://github.com/DanhDue-ExOICTIF/d3f_inapp_purchase.git"
-    source: git
+      path: "../d3f_inapp_purchase"
+      relative: true
+    source: path
     version: "1.0.0+1"
   d3f_networking:
-    dependency: transitive
+    dependency: "direct overridden"
     description:
-      path: "."
-      ref: develop
-      resolved-ref: de38f2b5113a95191c4f6f9e90847218146ad331
-      url: "https://github.com/DanhDue-ExOICTIF/d3f_networking.git"
-    source: git
+      path: "../d3f_networking"
+      relative: true
+    source: path
     version: "1.0.0+1"
   d3f_shared:
-    dependency: transitive
+    dependency: "direct overridden"
     description:
-      path: "."
-      ref: develop
-      resolved-ref: "3db48c5cdac82d92545d94da1e51a7289793807a"
-      url: "https://github.com/DanhDue-ExOICTIF/d3f_shared.git"
-    source: git
+      path: "../d3f_shared"
+      relative: true
+    source: path
     version: "1.0.0+1"
   dart_style:
     dependency: transitive
