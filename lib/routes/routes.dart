@@ -1,3 +1,5 @@
+// ignore_for_file: depend_on_referenced_packages
+
 import 'package:d3f_login/routes/middle_ware.dart';
 import 'package:d3f_login/screens/login/login_binding.dart';
 import 'package:d3f_login/screens/login/login_page.dart';

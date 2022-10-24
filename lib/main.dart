@@ -1,3 +1,5 @@
+// ignore_for_file: depend_on_referenced_packages
+
 import 'package:d3f_dependency_manager/dependency_manager.dart';
 import 'package:d3f_login/app/app_global_binding.dart';
 import 'package:d3f_login/app/translations.dart';
