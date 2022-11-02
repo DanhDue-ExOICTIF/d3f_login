@@ -3,9 +3,9 @@
 import 'package:d3f_dependency_manager/dependency_manager.dart';
 import 'package:d3f_login/app/app_global_binding.dart';
 import 'package:d3f_login/app/translations.dart';
-import 'package:d3f_login/routes/links.dart';
-import 'package:d3f_login/routes/middle_ware.dart';
-import 'package:d3f_login/routes/routes.dart';
+import 'package:d3f_login/app/routes/links.dart';
+import 'package:d3f_login/app/routes/middle_ware.dart';
+import 'package:d3f_login/app/routes/routes.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:get/get.dart';

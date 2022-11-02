@@ -1,7 +1,7 @@
 // ignore_for_file: depend_on_referenced_packages
 
 import 'package:d3f_core/screens/base/base_controller.dart';
-import 'package:d3f_login/routes/links.dart';
+import 'package:d3f_login/app/routes/links.dart';
 import 'package:get/get.dart';
 
 class SplashController extends BaseController {
