@@ -8,7 +8,7 @@
       "**/.idea": true,
       "**/.flutter-plugins": true,
       "**/.flutter-plugins-dependencies": true,
-      "**/melos_d3f_login.iml": true,
+      "**/*.iml": true,
       "**/.gitremotes": true,
       "**/.metadata": true
     },
@@ -20,7 +20,7 @@
       "**/.idea": true,
       "**/.flutter-plugins": true,
       "**/.flutter-plugins-dependencies": true,
-      "**/melos_d3f_login.iml": true,
+      "**/*.iml": true,
       "**/.gitremotes": true,
       "**/.metadata": true
     },
@@ -32,7 +32,7 @@
       "**/.idea": true,
       "**/.flutter-plugins": true,
       "**/.flutter-plugins-dependencies": true,
-      "**/melos_d3f_login.iml": true,
+      "**/*.iml": true,
       "**/.gitremotes": true,
       "**/.metadata": true
     }
