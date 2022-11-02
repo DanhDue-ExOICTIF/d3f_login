@@ -1,5 +1,5 @@
 ## Related Tickets
-- [Jira ticket link](https://bidv-vn.atlassian.net/jira/software/c/projects/SMAR/boards/29)
+- [Jira ticket link](https://atlassian.com/jira/software/c/projects/MODULAR/boards/ISSUE_ID)
 
 ## What's this PR to do?
 - [ ] Implement function A

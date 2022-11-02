@@ -1,7 +1,7 @@
 // ignore_for_file: depend_on_referenced_packages
 
 import 'package:d3f_dependency_manager/dependency_manager.dart';
-import 'package:d3f_login/routes/links.dart';
+import 'package:d3f_login/app/routes/links.dart';
 import 'package:fimber/fimber.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
