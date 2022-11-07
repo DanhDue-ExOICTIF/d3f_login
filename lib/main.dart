@@ -42,7 +42,7 @@ class MyApp extends StatelessWidget {
       translationsKeys: LoginGlobalTranslation.mergedTranslationKeys(),
       locale: AppConstants.vnVI,
       fallbackLocale: AppConstants.vnVI,
-      initialBinding: LoginGlobalBinding(),
+      initialBinding: LoginGlobalBindings(),
       initialRoute: LoginAppLinks.splash,
       routingCallback: (routing) => LoginMiddleWare.observer(routing),
       getPages: LoginAppRoutes.pages,
