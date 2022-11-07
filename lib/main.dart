@@ -9,9 +9,20 @@ import 'package:d3f_login/app/routes/routes.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:get/get.dart';
+import 'package:fimber/fimber.dart';
+import 'package:hive/hive.dart';
+import 'package:path_provider/path_provider.dart';
 
-void main() {
-  runApp(const MyApp());
+Future<void> main() async {
+  Fimber.plantTree(DebugTree(useColors: true));
+  Fimber.plantTree(DebugTree.elapsed());
+
+  WidgetsFlutterBinding.ensureInitialized();
+  Hive.init((await getApplicationDocumentsDirectory()).path);
+
+  SystemChrome.setPreferredOrientations(
+          [DeviceOrientation.portraitUp, DeviceOrientation.portraitDown])
+      .then((_) => runApp(const MyApp()));
 }
 
 class MyApp extends StatelessWidget {
