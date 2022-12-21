@@ -2,14 +2,13 @@
 
 import 'package:d3f_dependency_manager/dependency_manager.dart';
 import 'package:d3f_login/app/app_global_binding.dart';
-import 'package:d3f_login/app/translations.dart';
-import 'package:d3f_login/app/routes/links.dart';
+import 'package:d3f_login/app/routes/app_pages.dart';
 import 'package:d3f_login/app/routes/middle_ware.dart';
-import 'package:d3f_login/app/routes/routes.dart';
+import 'package:d3f_login/app/translations.dart';
+import 'package:fimber/fimber.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:get/get.dart';
-import 'package:fimber/fimber.dart';
 import 'package:hive/hive.dart';
 import 'package:path_provider/path_provider.dart';
 
@@ -43,9 +42,9 @@ class MyApp extends StatelessWidget {
       locale: AppConstants.vnVI,
       fallbackLocale: AppConstants.vnVI,
       initialBinding: LoginGlobalBindings(),
-      initialRoute: LoginAppLinks.splash,
+      initialRoute: Routes.SPLASH,
       routingCallback: (routing) => LoginMiddleWare.observer(routing),
-      getPages: LoginAppRoutes.pages,
+      getPages: AppPages.routes,
     );
   }
 }

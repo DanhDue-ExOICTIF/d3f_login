@@ -1,0 +1,206 @@
+{
+    "result": [
+        {
+            "isLabel": false,
+            "pushId": "1",
+            "title": "Bạn đã nộp tiền học phí kì 1/2022 thành công",
+            "icon": "empty-wallet-change",
+            "body": "Số tiền đã nộp: 1,500,000 đ",
+            "url": "url",
+            "imageUrl": "imageUrl",
+            "createdAt": "2022-12-20T11:20:24.864817",
+            "type": "tuition",
+            "isLast": false
+        },
+        {
+            "pushId": "2",
+            "title": "Cập nhật t hời khóa biểu kì II tháng 1/2022",
+            "icon": "empty-wallet-change",
+            "body": "Số tiền đã nộp: 1,500,000 đ",
+            "url": "url",
+            "imageUrl": "imageUrl",
+            "createdAt": "2022-12-20T11:20:24.864817",
+            "type": "tuition"
+        },
+        {
+            "pushId": "3",
+            "title": "Cập nhật t hời khóa biểu kì II tháng 1/2022",
+            "icon": "empty-wallet-change",
+            "body": "Số tiền đã nộp: 1,500,000 đ",
+            "url": "url",
+            "imageUrl": "imageUrl",
+            "createdAt": "2022-12-20T11:20:24.864817",
+            "type": "tuition"
+        },
+        {
+            "pushId": "4",
+            "title": "Bạn đã nộp tiền học phí kì 1/2022 thành công",
+            "icon": "empty-wallet-change",
+            "body": "Số tiền đã nộp: 1,500,000 đ",
+            "url": "url",
+            "imageUrl": "imageUrl",
+            "createdAt": "2022-12-19T11:20:24.864817",
+            "type": "tuition"
+        },
+        {
+            "pushId": "5",
+            "title": "Bạn đã nộp tiền học phí kì 1/2022 thành công",
+            "icon": "empty-wallet-change",
+            "body": "Số tiền đã nộp: 1,500,000 đ",
+            "url": "url",
+            "imageUrl": "imageUrl",
+            "createdAt": "2022-12-19T11:20:24.864817",
+            "type": "schedule"
+        },
+        {
+            "pushId": "6",
+            "title": "Bạn đã nộp tiền học phí kì 1/2022 thành công",
+            "icon": "empty-wallet-change",
+            "body": "Số tiền đã nộp: 1,500,000 đ",
+            "url": "url",
+            "imageUrl": "imageUrl",
+            "createdAt": "2022-12-19T11:20:24.864817",
+            "type": "schedule"
+        },
+        {
+            "pushId": "7",
+            "title": "Bạn đã nộp tiền học phí kì 1/2022 thành công",
+            "icon": "empty-wallet-change",
+            "body": "Số tiền đã nộp: 1,500,000 đ",
+            "url": "url",
+            "imageUrl": "imageUrl",
+            "createdAt": "2022-12-19T19:31:05.231712",
+            "type": "schedule"
+        },
+        {
+            "pushId": "8",
+            "title": "Bạn đã nộp tiền học phí kì 1/2022 thành công",
+            "icon": "empty-wallet-change",
+            "body": "Số tiền đã nộp: 1,500,000 đ",
+            "url": "url",
+            "imageUrl": "imageUrl",
+            "createdAt": "2022-12-19T19:31:05.231712",
+            "type": "schedule"
+        },
+        {
+            "pushId": "9",
+            "title": "Bạn đã nộp tiền học phí kì 1/2022 thành công",
+            "icon": "empty-wallet-change",
+            "body": "Số tiền đã nộp: 1,500,000 đ",
+            "url": "url",
+            "imageUrl": "imageUrl",
+            "createdAt": "2022-12-18T19:31:05.231712",
+            "type": "schedule"
+        },
+        {
+            "pushId": "10",
+            "title": "Bạn đã nộp tiền học phí kì 1/2022 thành công",
+            "icon": "empty-wallet-change",
+            "body": "Số tiền đã nộp: 1,500,000 đ",
+            "url": "url",
+            "imageUrl": "imageUrl",
+            "createdAt": "2022-12-18T19:31:05.231712",
+            "type": "schedule"
+        },
+        {
+            "pushId": "11",
+            "title": "Bạn đã nộp tiền học phí kì 1/2022 thành công",
+            "icon": "empty-wallet-change",
+            "body": "Số tiền đã nộp: 1,500,000 đ",
+            "url": "url",
+            "imageUrl": "imageUrl",
+            "createdAt": "2022-12-18T19:31:05.231712",
+            "type": "schedule"
+        },
+        {
+            "pushId": "12",
+            "title": "Bạn đã nộp tiền học phí kì 1/2022 thành công",
+            "icon": "empty-wallet-change",
+            "body": "Số tiền đã nộp: 1,500,000 đ",
+            "url": "url",
+            "imageUrl": "imageUrl",
+            "createdAt": "2022-12-18T19:31:05.231712",
+            "type": "schedule"
+        },
+        {
+            "pushId": "13",
+            "title": "Bạn đã nộp tiền học phí kì 1/2022 thành công",
+            "icon": "empty-wallet-change",
+            "body": "Số tiền đã nộp: 1,500,000 đ",
+            "url": "url",
+            "imageUrl": "imageUrl",
+            "createdAt": "2022-12-18T19:31:05.231712",
+            "type": "schedule"
+        },
+        {
+            "pushId": "14",
+            "title": "Bạn đã nộp tiền học phí kì 1/2022 thành công",
+            "icon": "empty-wallet-change",
+            "body": "Số tiền đã nộp: 1,500,000 đ",
+            "url": "url",
+            "imageUrl": "imageUrl",
+            "createdAt": "2022-12-18T19:31:05.231712",
+            "type": "schedule"
+        },
+        {
+            "pushId": "15",
+            "title": "Bạn đã nộp tiền học phí kì 1/2022 thành công",
+            "icon": "empty-wallet-change",
+            "body": "Số tiền đã nộp: 1,500,000 đ",
+            "url": "url",
+            "imageUrl": "imageUrl",
+            "createdAt": "2022-12-18T19:31:05.231712",
+            "type": "schedule"
+        },
+        {
+            "pushId": "16",
+            "title": "Bạn đã nộp tiền học phí kì 1/2022 thành công",
+            "icon": "empty-wallet-change",
+            "body": "Số tiền đã nộp: 1,500,000 đ",
+            "url": "url",
+            "imageUrl": "imageUrl",
+            "createdAt": "2022-12-18T19:31:05.231712",
+            "type": "schedule"
+        },
+        {
+            "pushId": "17",
+            "title": "Bạn đã nộp tiền học phí kì 1/2022 thành công",
+            "icon": "empty-wallet-change",
+            "body": "Số tiền đã nộp: 1,500,000 đ",
+            "url": "url",
+            "imageUrl": "imageUrl",
+            "createdAt": "2022-12-18T19:31:05.231712",
+            "type": "schedule"
+        },
+        {
+            "pushId": "18",
+            "title": "Bạn đã nộp tiền học phí kì 1/2022 thành công",
+            "icon": "empty-wallet-change",
+            "body": "Số tiền đã nộp: 1,500,000 đ",
+            "url": "url",
+            "imageUrl": "imageUrl",
+            "createdAt": "2022-12-17T19:31:05.231712",
+            "type": "schedule"
+        },
+        {
+            "pushId": "19",
+            "title": "Bạn đã nộp tiền học phí kì 1/2022 thành công",
+            "icon": "empty-wallet-change",
+            "body": "Số tiền đã nộp: 1,500,000 đ",
+            "url": "url",
+            "imageUrl": "imageUrl",
+            "createdAt": "2022-12-16T19:31:05.231712",
+            "type": "schedule"
+        },
+        {
+            "pushId": "20",
+            "title": "Bạn đã nộp tiền học phí kì 1/2022 thành công",
+            "icon": "empty-wallet-change",
+            "body": "Số tiền đã nộp: 1,500,000 đ",
+            "url": "url",
+            "imageUrl": "imageUrl",
+            "createdAt": "2022-12-16T19:31:05.231712",
+            "type": "schedule"
+        }
+    ]
+}

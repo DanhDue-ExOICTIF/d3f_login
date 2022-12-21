@@ -26,6 +26,25 @@ class $AssetsImagesGen {
   List<dynamic> get values => [coinLogo, icSplashBackground];
 }
 
+class $AssetsJsonsGen {
+  const $AssetsJsonsGen();
+
+  /// File path: assets/jsons/notification.json
+  String get notification => 'assets/jsons/notification.json';
+
+  /// File path: assets/jsons/semester_point.json
+  String get semesterPoint => 'assets/jsons/semester_point.json';
+
+  /// File path: assets/jsons/testing_plan.json
+  String get testingPlan => 'assets/jsons/testing_plan.json';
+
+  /// File path: assets/jsons/user_object.json
+  String get userObject => 'assets/jsons/user_object.json';
+
+  /// List of all assets
+  List<String> get values => [notification, semesterPoint, testingPlan, userObject];
+}
+
 class $AssetsLottiesGen {
   const $AssetsLottiesGen();
 
@@ -41,6 +60,7 @@ class MyAssets {
   MyAssets._();
 
   static const $AssetsImagesGen images = $AssetsImagesGen();
+  static const $AssetsJsonsGen jsons = $AssetsJsonsGen();
   static const $AssetsLottiesGen lotties = $AssetsLottiesGen();
 }
 
@@ -156,6 +176,8 @@ class SvgGenImage {
   }
 
   String get path => _assetName;
+
+  String get keyName => _assetName;
 }
 
 class LottieGenImage {
@@ -188,6 +210,7 @@ class LottieGenImage {
   }) {
     return Lottie.asset(
       _assetName,
+      controller: controller,
       animate: animate,
       frameRate: frameRate,
       repeat: repeat,
@@ -212,4 +235,6 @@ class LottieGenImage {
   }
 
   String get path => _assetName;
+
+  String get keyName => _assetName;
 }

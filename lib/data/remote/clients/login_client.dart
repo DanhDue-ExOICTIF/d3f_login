@@ -1,6 +1,6 @@
 // ignore_for_file: depend_on_referenced_packages
 
-import 'package:d3f_login/app/app.dart';
+import 'package:d3f_login/app/environment_configurations.dart';
 import 'package:dio/dio.dart';
 import 'package:retrofit/retrofit.dart';
 

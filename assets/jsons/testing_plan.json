@@ -1,0 +1,114 @@
+{
+  "code": "0000",
+  "result": [
+    {
+      "isLabel": false,
+      "course": "Lịch sử Đảng Cộng Sản Việt Nam - L501",
+      "time": "08:00 - 09:00",
+      "idNumber": 103,
+      "location": "Nhà A - P503",
+      "studySession": 2,
+      "examTime": 1,
+      "startAt": "2022-12-17T11:08:24.864817",
+      "endAt": "2022-12-17T11:09:24.864817"
+    },
+    {
+      "isLabel": false,
+      "course": "Lịch sử Đảng Cộng Sản Việt Nam - L501",
+      "time": "08:00 - 09:00",
+      "idNumber": 103,
+      "location": "Nhà A - P503",
+      "studySession": 2,
+      "examTime": 1,
+      "startAt": "2022-12-17T11:08:24.864817",
+      "endAt": "2022-12-17T11:09:24.864817"
+    },
+    {
+      "isLabel": false,
+      "course": "Lịch sử Đảng Cộng Sản Việt Nam - L501",
+      "time": "08:00 - 09:00",
+      "idNumber": 103,
+      "location": "Nhà A - P503",
+      "studySession": 2,
+      "examTime": 1,
+      "startAt": "2022-12-17T11:08:24.864817",
+      "endAt": "2022-12-17T11:09:24.864817"
+    },
+    {
+      "isLabel": false,
+      "course": "Lịch sử Đảng Cộng Sản Việt Nam - L501",
+      "time": "08:00 - 09:00",
+      "idNumber": 103,
+      "location": "Nhà A - P503",
+      "studySession": 2,
+      "examTime": 1,
+      "startAt": "2022-12-18T11:08:24.864817",
+      "endAt": "2022-12-18T11:09:24.864817"
+    },
+    {
+      "course": "Lịch sử Đảng Cộng Sản Việt Nam - L501",
+      "time": "08:00 - 09:00",
+      "idNumber": 103,
+      "location": "Nhà A - P503",
+      "studySession": 2,
+      "examTime": 1,
+      "startAt": "2022-12-18T11:08:24.864817",
+      "endAt": "2022-12-18T11:09:24.864817"
+    },
+    {
+      "isLabel": false,
+      "course": "Lịch sử Đảng Cộng Sản Việt Nam - L501",
+      "time": "08:00 - 09:00",
+      "idNumber": 103,
+      "location": "Nhà A - P503",
+      "studySession": 2,
+      "examTime": 1,
+      "startAt": "2022-12-19T11:08:24.864817",
+      "endAt": "2022-12-19T11:09:24.864817"
+    },
+    {
+      "isLabel": false,
+      "course": "Lịch sử Đảng Cộng Sản Việt Nam - L501",
+      "time": "08:00 - 09:00",
+      "idNumber": 103,
+      "location": "Nhà A - P503",
+      "studySession": 2,
+      "examTime": 1,
+      "startAt": "2022-12-19T11:08:24.864817",
+      "endAt": "2022-12-19T11:09:24.864817"
+    },
+    {
+      "isLabel": false,
+      "course": "Lịch sử Đảng Cộng Sản Việt Nam - L501",
+      "time": "08:00 - 09:00",
+      "idNumber": 103,
+      "location": "Nhà A - P503",
+      "studySession": 2,
+      "examTime": 1,
+      "startAt": "2022-12-20T11:08:24.864817",
+      "endAt": "2022-12-20T11:09:24.864817"
+    },
+    {
+      "isLabel": false,
+      "course": "Lịch sử Đảng Cộng Sản Việt Nam - L501",
+      "time": "08:00 - 09:00",
+      "idNumber": 103,
+      "location": "Nhà A - P503",
+      "studySession": 2,
+      "examTime": 1,
+      "startAt": "2022-12-20T11:08:24.864817",
+      "endAt": "2022-12-20T11:09:24.864817"
+    },
+    {
+      "isLabel": false,
+      "course": "Lịch sử Đảng Cộng Sản Việt Nam - L501",
+      "time": "08:00 - 09:00",
+      "idNumber": 103,
+      "location": "Nhà A - P503",
+      "studySession": 2,
+      "examTime": 1,
+      "startAt": "2022-12-20T11:08:24.864817",
+      "endAt": "2022-12-20T11:09:24.864817"
+    }
+  ]
+}

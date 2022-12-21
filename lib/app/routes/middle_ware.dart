@@ -1,23 +1,22 @@
 // ignore_for_file: depend_on_referenced_packages
 
+import 'package:d3f_login/app/routes/app_pages.dart';
 import 'package:fimber/fimber.dart';
 import 'package:get/get.dart';
-
-import 'links.dart';
 
 class LoginMiddleWare extends GetMiddleware {
   static observer(Routing? routing) {
     switch (routing?.current) {
-      case LoginAppLinks.tokenIsExpired:
+      case Routes.tokenIsExpired:
         {
           Fimber.d('MiddleWare.observer() - AppLinks.tokenIsExpired');
-          Get.offNamed(LoginAppLinks.login);
+          Get.offNamed(Routes.LOGIN);
           break;
         }
-      case LoginAppLinks.splash:
+      case Routes.SPLASH:
         {
           Fimber.d('MiddleWare.observer() - AppLinks.tokenIsExpired');
-          Get.offNamed(LoginAppLinks.splash);
+          Get.offNamed(Routes.SPLASH);
           break;
         }
       default:
