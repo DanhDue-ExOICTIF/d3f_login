@@ -1,7 +1,2 @@
-class EnvironmentConfig {
-  static const APP_NAME =
-      String.fromEnvironment('DART_DEFINES_APP_NAME', defaultValue: "Modular");
-  static const APP_SUFFIX = String.fromEnvironment('DART_DEFINES_APP_SUFFIX');
-  static const BASE_URL = String.fromEnvironment('DART_DEFINES_BASE_URL',
-      defaultValue: "https://danhdue.com/");
-}
+export 'package:d3f_login/app/app_global_binding.dart';
+export 'package:d3f_login/app/routes/app_pages.dart';

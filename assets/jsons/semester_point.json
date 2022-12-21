@@ -1,0 +1,103 @@
+{
+  "code": "0000",
+  "result": {
+    "semesterCount": 5,
+    "selectedSemesterverage": 7.5,
+    "allSemestersAvarage": 7.5,
+    "classification": "Giỏi",
+    "selectedSemester": "Kì 20221",
+    "selectedSemesterClassification": "Xếp loại: Giỏi",
+    "listcourse": [
+      {
+        "id": 0,
+        "coursename": "Lập trình PLC cơ bản",
+        "numbercredits": "3",
+        "coefficient": "2",
+        "GPApoint": "7.5",
+        "GPA": "7.5",
+        "rank": "1",
+        "status": "pass"
+      },
+      {
+        "id": 1,
+        "coursename": "Giáo dục thể chất",
+        "numbercredits": "3",
+        "coefficient": "2",
+        "GPApoint": "2.5",
+        "GPA": "2.5",
+        "rank": "1",
+        "status": "fail"
+      },
+      {
+        "id": 2,
+        "coursename": "Điều khiển điện khí nén",
+        "numbercredits": "3",
+        "coefficient": "2",
+        "GPApoint": "7.5",
+        "GPA": "7.5",
+        "rank": "1",
+        "status": "pass"
+      },
+      {
+        "id": 3,
+        "coursename": "Mạch điện tử nâng cao",
+        "numbercredits": "3",
+        "coefficient": "2",
+        "GPApoint": "7.5",
+        "GPA": "7.5",
+        "rank": "int",
+        "status": "pass"
+      },
+      {
+        "id": 4,
+        "coursename": "Giáo dục thể chất",
+        "numbercredits": "3",
+        "coefficient": "1",
+        "GPApoint": "7.5",
+        "GPA": "7.5",
+        "rank": "int",
+        "status": "pass"
+      },
+      {
+        "id": 5,
+        "coursename": "Giáo dục thể chất",
+        "numbercredits": "3",
+        "coefficient": "2",
+        "GPApoint": "7.5",
+        "GPA": "7.5",
+        "rank": "1",
+        "status": "pass"
+      },
+      {
+        "id": 6,
+        "coursename": "string",
+        "numbercredits": "3",
+        "coefficient": "2",
+        "GPApoint": "7.5",
+        "GPA": "7.5",
+        "rank": "1",
+        "status": "pass"
+      },
+      {
+        "id": 7,
+        "coursename": "string",
+        "numbercredits": "3",
+        "coefficient": "2",
+        "GPApoint": "7.5",
+        "GPA": "7.5",
+        "rank": "1",
+        "status": "pass"
+      },
+      {
+        "id": 8,
+        "coursename": "string",
+        "numbercredits": "3",
+        "coefficient": "2",
+        "GPApoint": "7.5",
+        "GPA": "7.5",
+        "rank": "1",
+        "status": "pass"
+      }
+    ]
+  }
+}
