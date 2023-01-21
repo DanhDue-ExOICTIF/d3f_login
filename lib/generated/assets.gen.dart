@@ -5,7 +5,7 @@
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
-// ignore_for_file: directives_ordering,unnecessary_import,implicit_dynamic_list_literal
+// ignore_for_file: directives_ordering,unnecessary_import
 
 import 'package:flutter/widgets.dart';
 import 'package:flutter_svg/flutter_svg.dart';
@@ -176,8 +176,6 @@ class SvgGenImage {
   }
 
   String get path => _assetName;
-
-  String get keyName => _assetName;
 }
 
 class LottieGenImage {
@@ -210,7 +208,6 @@ class LottieGenImage {
   }) {
     return Lottie.asset(
       _assetName,
-      controller: controller,
       animate: animate,
       frameRate: frameRate,
       repeat: repeat,
@@ -235,6 +232,4 @@ class LottieGenImage {
   }
 
   String get path => _assetName;
-
-  String get keyName => _assetName;
 }
