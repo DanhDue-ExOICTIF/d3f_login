@@ -12,7 +12,6 @@
 Icon?
 **/Pods/
 **/.symlinks/
-profile
 xcuserdata
 **/.generated/
 Flutter/App.framework
@@ -37,3 +36,4 @@ Podfile.lock
 Gemfile.lock
 fastlane/build
 build
+signings
