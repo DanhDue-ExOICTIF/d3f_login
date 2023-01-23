@@ -1,2 +1,2 @@
-DART_DEFINES_APP_NAME=Login
-DART_DEFINES_BASE_URL=https://danhdue.com/
+DART_DEFINES_APP_NAME=D3FLogin
+DART_DEFINES_BASE_URL=https://danhdue.com/api/v1
