@@ -27,30 +27,40 @@ platform :ios do
     sh("rm", "-rf", "../build")
     # run flutter pub get to gen default flutter_export_environment & Generated files.
     sh("fvm", "flutter", "pub", "get")
+
     # prebuild to generate the flutter configurations.
-    sh("fvm", "flutter", "build", "ios", "--dart-define=DART_DEFINES_APP_NAME=#{ENV["#{ENV['BUILD_VARIANT']}AppName"]}",
-     "--dart-define=DART_DEFINES_BASE_URL=#{ENV["#{ENV['BUILD_VARIANT']}BaseURL"]}")
+    # sh("fvm", "flutter", "build", "ipa", "--obfuscate", "--split-debug-info", "--split-per-abi",
+    #  "--dart-define=DART_DEFINES_APP_NAME=#{ENV["#{ENV['BUILD_VARIANT']}AppName"]}",
+    #  "--dart-define=DART_DEFINES_BASE_URL=#{ENV["#{ENV['BUILD_VARIANT']}BaseURL"]}",
+    #  "--export-options-plist ./ios/fastlane/export_options/Release/ExportOptions.plist",
+    #  "--release")
 
-    get_certificates(username: "#{ENV['USER_NAME']}", team_name: "#{ENV['TEAM_NAME']}",
-     team_id: "#{ENV['TEAM_ID']}", development: true, output_path: "#{ENV['SINGINGS_CERTS_PATH']}")
+     sh("melos", "buildIPARelease")
 
-    get_provisioning_profile(username: "#{ENV['USER_NAME']}", team_name: "#{ENV['TEAM_NAME']}",
-     team_id: "#{ENV['TEAM_ID']}", development: true, output_path: "#{ENV['SINGINGS_PROFILES_PATH']}")
+    # # prebuild to generate the flutter configurations.
+    # sh("fvm", "flutter", "build", "ios", "--dart-define=DART_DEFINES_APP_NAME=#{ENV["#{ENV['BUILD_VARIANT']}AppName"]}",
+    #  "--dart-define=DART_DEFINES_BASE_URL=#{ENV["#{ENV['BUILD_VARIANT']}BaseURL"]}")
 
-    # set a specific number that is ticket number of the task management system such as: Jira, Redmine,...
-    increment_build_number(build_number: "#{ENV['TICKET_NUMBER']}")
-    build_app(
-      scheme: 'Runner',
-      configuration: "#{ENV['BUILD_VARIANT']}",
-      export_method: "#{ENV['EXPORT_METHOD']}",
-      workspace: "Runner.xcworkspace",
-      clean: false,
-      export_options: "fastlane/export_options/#{ENV['BUILD_VARIANT']}/ExportOptions.plist",
-      export_team_id: "#{ENV['TEAM_ID']}",
-      output_directory: "build/ipa/#{ENV['BUILD_VARIANT']}",
-      output_name: "#{ENV["#{ENV['BUILD_VARIANT']}AppName"]}.ipa",
-      archive_path: "../build/ios/archive/Runner.xcarchive"
-     )
+    # get_certificates(username: "#{ENV['USER_NAME']}", team_name: "#{ENV['TEAM_NAME']}",
+    #  team_id: "#{ENV['TEAM_ID']}", development: true, output_path: "#{ENV['SINGINGS_CERTS_PATH']}")
+
+    # get_provisioning_profile(username: "#{ENV['USER_NAME']}", team_name: "#{ENV['TEAM_NAME']}",
+    #  team_id: "#{ENV['TEAM_ID']}", development: true, output_path: "#{ENV['SINGINGS_PROFILES_PATH']}")
+
+    # # set a specific number that is ticket number of the task management system such as: Jira, Redmine,...
+    # increment_build_number(build_number: "#{ENV['TICKET_NUMBER']}")
+    # build_app(
+    #   scheme: 'Runner',
+    #   configuration: "#{ENV['BUILD_VARIANT']}",
+    #   export_method: "#{ENV['EXPORT_METHOD']}",
+    #   workspace: "Runner.xcworkspace",
+    #   clean: false,
+    #   export_options: "fastlane/export_options/#{ENV['BUILD_VARIANT']}/ExportOptions.plist",
+    #   export_team_id: "#{ENV['TEAM_ID']}",
+    #   output_directory: "build/ipa/#{ENV['BUILD_VARIANT']}",
+    #   output_name: "#{ENV["#{ENV['BUILD_VARIANT']}AppName"]}.ipa",
+    #   archive_path: "../build/ios/archive/Runner.xcarchive"
+    #  )
   end
 
   desc "Upload the ipa file to the Firebase App Distribution."
@@ -62,7 +72,7 @@ platform :ios do
     puts "------ Release notes: #{releaseNotes} -------"
     firebase_app_distribution(
         app: "#{firebaseAppID}",
-        ipa_path: "build/ipa/#{ENV['BUILD_VARIANT']}/#{ENV["#{ENV['BUILD_VARIANT']}AppName"]}.ipa",
+        ipa_path: "../..build/ipa/#{ENV['BUILD_VARIANT']}/#{ENV["#{ENV['BUILD_VARIANT']}AppName"]}.ipa",
         release_notes: "#{releaseNotes}",
         groups:"#{ENV['GROUP_TESTER']}",
         firebase_cli_token: "#{ENV['FIREBASE_TOKEN_FOR_CI_SYSTEM']}"
