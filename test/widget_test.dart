@@ -1,3 +1,5 @@
+// Copyright (c) 2023, one of the D3F outsourcing projects. All rights reserved.
+
 // This is a basic Flutter widget test.
 //
 // To perform an interaction with a widget in your test, use the WidgetTester
