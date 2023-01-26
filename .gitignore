@@ -46,8 +46,4 @@ app.*.map.json
 # Flutter Version Manager.
 .fvm/
 
-# Generated files.
-*.g.dart
-*.freezed.dart
-!/lib/generated/locales.g.dart
-!/lib/generated/assets.gen.dart
+pubspec_overrides.yaml
