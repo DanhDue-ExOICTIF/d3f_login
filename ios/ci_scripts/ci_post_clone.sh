@@ -23,9 +23,11 @@ cd ios && pod install # run `pod install` in the `ios` directory.
 cd $CI_WORKSPACE # change working directory to the root of your cloned repo.
 
 # Build ios app
-flutter build ios --obfuscate --split-debug-info --split-per-abi \
+flutter build ipa --obfuscate --split-debug-info --split-per-abi \
+--export-method=app-store \
 --dart-define=DART_DEFINES_APP_NAME="D3FLogin" \
 --dart-define=DART_DEFINES_BASE_URL="https://danhdue.com/api/v1" \
---release
+--release \
+--verbose
 
 exit 0
